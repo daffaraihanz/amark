@@ -1,0 +1,102 @@
+ul li {
+    list-style: none;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+.content .lala {
+    width: 8px;
+    height: 8px;
+    background: #697C37;
+    border-radius: 2000px;
+}
+
+p {
+    margin: 0;
+}
+
+.content {
+    font-family: "Nunito";
+}
+
+.content h2 {
+    font-weight: bold;
+}
+
+.dot {
+    position: absolute;
+    z-index: 9;
+    width: 40px;
+    border-radius: 2000px;
+    height: 40px;
+    background: #FFBF19;
+    /* right: 190px; */
+    /* top: -15px; */
+
+    /* right: 0; */
+}
+
+.data {
+    z-index: 99;
+}
+
+.data-wrapper {
+    position: relative;
+    /* background: red; */
+    /* width: 214px; */
+}
+
+.more {
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 28px;
+    color: #FFBF19;
+    text-decoration: none !important;
+    transition: .3s;
+}
+
+.more:hover {
+    color: #FFBF19;
+    margin-right: 30px !important;
+    transition: .3s;
+}
+
+.arrLeft{
+    
+}
+
+.more:hover .arrLeft{
+    margin-left: 200px !important;
+}
+
+
+@media screen and (max-width: 991px) {
+    .content {
+        margin-top: 50px;
+    }
+
+}
+
+@media screen and (max-width: 1199px) {
+    .dot {
+        display: none !important;
+    }
+
+}
+
+@media screen and (max-width: 369px) {
+
+    .content h2 {
+        font-size: 25px;
+    }
+
+    .content p{
+        margin-top: 20px !important;
+        font-size: 14px;
+        line-height: 30px;
+    }
+
+}
